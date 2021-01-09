@@ -2,6 +2,10 @@ import { firstSubscription, secondSubscription } from "./1_custom_observable";
 import { mySubscription } from "./2_operators";
 import { suscribtion } from "./3_custom_operator";
 import { characterSubscription } from "./4_map_mergemap";
+import {
+  skpiUntilSubscription,
+  shareReplaySubscription
+} from "./5_skipuntil_sharereplay";
 
 /**1 - Custom observable, observer and suscribe */
 //firstSubscription;
@@ -14,4 +18,6 @@ import { characterSubscription } from "./4_map_mergemap";
 //suscribtion;
 
 /**4 - Map and merge map */
-characterSubscription;
+//characterSubscription;
+//skpiUntilSubscription;
+//shareReplaySubscription;
