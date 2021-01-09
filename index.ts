@@ -6,6 +6,7 @@ import {
   skpiUntilSubscription,
   shareReplaySubscription
 } from "./5_skipuntil_sharereplay";
+import { exampleCathError } from "./6_catcherror";
 
 /**1 - Custom observable, observer and suscribe */
 //firstSubscription;
@@ -21,3 +22,6 @@ import {
 //characterSubscription;
 //skpiUntilSubscription;
 //shareReplaySubscription;
+
+/**5 - ctacherror */
+exampleCathError;
